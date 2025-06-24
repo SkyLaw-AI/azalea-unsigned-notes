@@ -1,0 +1,15 @@
+{
+    "active_environment": "sandbox",
+    "sandbox": {
+      "client_id": "YOUR_CLIENT_ID",
+      "client_secret": "YOUR_CLIENT_SECRET",
+      "token_url": "https://app.azaleahealth.com/fhir/R4/sandbox/oauth/token",
+      "base_fhir_url": "https://app.azaleahealth.com/fhir/R4/sandbox"
+    },
+    "production": {
+      "client_id": "YOUR_CLIENT_ID",
+      "client_secret": "YOUR_CLIENT_SECRET",
+      "token_url": "https://app.azaleahealth.com/oauth/token",
+      "base_fhir_url": "https://app.azaleahealth.com/fhir/R4/YOUR_ORG_ID"
+    }
+  } 
